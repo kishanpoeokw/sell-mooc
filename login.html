@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Course Login</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        body {
+            font-family: Arial, sans-serif;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 150%;
+            background-size: cover;
+            margin-top: 151px;
+            background-color: #555;
+        }
+        .container {
+            background: rgba(255, 255, 255, 0.9);
+            padding: 50px;
+            border-radius: 15px;
+            box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
+            max-width: 500px;
+            width: 100%;
+            text-align: center;
+        }
+        .container h1 {
+            font-size: 32px;
+            color: #333;
+            margin-bottom: 12px;
+            font-weight: bold;
+        }
+        .container p {
+            font-size: 22px;
+            color: #555;
+            margin-bottom: 52PX;
+            font-weight: 500;
+        }
+        .form input[type="name"], .form input[type="password"] {
+            width: 100%;
+            padding: 12PX;
+            margin: 12PX 0;
+            border: 2px solid #ddd;
+            border-radius: 8px;
+            font-size: 22px;
+        
+        }
+        .form input[type="name"]:focus, .form input[type="password"]:focus {
+            border-color: #FF7E5F;
+            outline: none;
+        }
+        .form button {
+            width: 100%;
+            padding: 12px;
+            background: linear-gradient(90deg, #f57656, #e9a46f);
+            border: none;
+            color: #f3ebeb;
+            font-size:22px;
+            font-weight: bold;
+            border-radius: 8px;
+            cursor: pointer;
+          
+        }
+        
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Welcome Back to Learning</h1>
+        <p>Access your courses and continue your growth journey.</p>
+        <form class="form" action="myweb.html" method="get">
+            <input type="name" placeholder="Username" required>
+            <input type="password" placeholder="Password" required>
+            <button type="submit">Login</button>
+        </form>
+    </div>
+</body>
+</html>
